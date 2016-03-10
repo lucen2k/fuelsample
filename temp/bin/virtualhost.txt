@@ -1,0 +1,24 @@
+# path
+C:\xampp\apache\conf\extra
+
+# file name
+httpd-vhosts.conf
+
+# add
+<VirtualHost *:80>
+ServerName api.localhost.sample
+DocumentRoot "/xampp/htdocs/fuelsample/public"
+DirectoryIndex index.php index.html index.html index.htm index.shtml
+</VirtualHost>
+
+<VirtualHost *:80>
+ServerName admin.localhost.sample
+DocumentRoot "/xampp/htdocs/fuelsample/public_admin"
+DirectoryIndex index.php index.html index.html index.htm index.shtml
+</VirtualHost>
+
+<VirtualHost *:80>
+ServerName webview.localhost.sample
+DocumentRoot "/xampp/htdocs/fuelsample/public_webview"
+DirectoryIndex index.php index.html index.html index.htm index.shtml
+</VirtualHost>

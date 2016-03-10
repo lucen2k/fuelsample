@@ -1,0 +1,10 @@
+# windows path
+C:\Windows\System32\drivers\etc
+
+# file name
+hosts
+
+# add
+127.0.0.1       api.localhost.sample
+127.0.0.1       admin.localhost.sample
+127.0.0.1       webview.localhost.sample
